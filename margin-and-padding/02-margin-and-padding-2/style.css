@@ -6,22 +6,62 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 20px auto;
+  padding: 5px 10px;
+  min-width: 0px;
+  text-wrap: wrap;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 8px 8px;
+  margin: 6px 0px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 15px 10px;
+  margin: 8px 0px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 10px;
+  margin: 6px 0px;
 }
 
 button {
   background: white;
+  display: block;
+  margin: auto;
+  padding: 5px 20px;
   border: 1px solid #eee;
+}
+
+.old {
+  background-color: aqua;
+  width: 400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: pink;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+}
+
+.container * {
+  background-color: blue;
+}
+
+.two {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.three {
 }
